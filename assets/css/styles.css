@@ -1,11 +1,65 @@
 .fondo{
     background-color: orangered;
 }
-.carousel-item { 
-    max-height: 1000px;
-    width: auto;
-    object-fit: contain;
-}
 .adaptar{
     width: 80%;
     margin: 0 auto; }
+
+.contenedor-imagen {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}   
+.centrar{
+    text-align: center;
+    
+}
+
+.justificado{
+    text-align: justify;
+    margin: 30px auto; 
+    width: 80%; 
+}
+
+.li{
+    list-style-type: none;
+}
+.esquinaup{
+    text-align: right;
+}
+
+.centrar2{
+    flex-grow: 1; 
+    text-align: center; 
+    text-align: justify;
+      
+}
+.contenedor {
+    display: flex; 
+    align-items: center; 
+    
+}
+
+.articleg{
+    width: 600px; 
+    height: auto; 
+    float: left; 
+    margin-right: 30px; 
+    margin-top: 50px;
+}
+.centrar-titulo{
+    justify-content: center;
+
+}
+.separar{
+    margin-top: 30px;
+    
+}
+.letra{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+}
